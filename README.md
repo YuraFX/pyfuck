@@ -50,9 +50,27 @@
 
 ![hello](images/program_result.png)
 
-## Ссылки
+## Варианты установки
 
 * [Скачать](https://github.com/YuraFX/pyfuck/releases/tag/1.0) ![windows](images/windows.png)Windows-версию в релизах.
+
+* Офлайн установка на ![haiku](images/haiku.png)[Haiku R1/beta 4](https://www.haiku-os.org/) (проверено на [Oracle VM VirtualBox](https://www.virtualbox.org/) 5.2.44):
+  
+  - Переходим в Deskbar -> Приложения -> Терминал
+    
+  - Проверяем версию Python:
+      ```python3 --version``` (в версии R1/beta 4 предустановлен Python 3.9.14)
+
+  - Затем вставляем [диск](https://github.com/YuraFX/pyfuck/blob/main/ISO/pyfuck.iso) с pyfuck
+    
+  - Копируем содержимое диска на Рабочий стол
+    
+  - Возвращаемся к Терминалу и вводим команду: ```cd /boot/home/Desktop/pyfuck```
+    
+  - И наконец вводим команду для запуска файла main.py: ```python3 main.py```
+ 
+    Результат:
+    ![test](images/pyfuck_haiku_test.png)
 
 ## О лицензии
 
