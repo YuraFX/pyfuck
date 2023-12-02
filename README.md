@@ -72,6 +72,23 @@
     Результат:
     ![test](images/pyfuck_haiku_test.png)
 
+* Офлайн установка на ![linux](images/bodhi_linux.png)[Bodhi Linux](https://www.bodhilinux.com/) 5.1.0 (проверено на [Oracle VM VirtualBox](https://www.virtualbox.org/) 5.2.44):
+
+  - Открываем Терминал
+    
+  - Проверяем версию Python: ```python3 --version``` (в версии 5.1.0 предустановлен Python 3.6.9)
+    
+  - Затем вставляем [диск](https://github.com/YuraFX/pyfuck/blob/main/ISO/pyfuck.iso) с pyfuck
+    
+  - Копируем содержимое диска в Places -> Desktop
+    
+  - Возвращаемся к Терминалу и вводим команду: ```cd Desktop/pyfuck```
+    
+  - И наконец вводим команду для запуска файла main.py: ```python3 main.py```
+
+    Результат:
+    ![linux_test](images/pyfuck_linux_test.png.png)
+
 ## О лицензии
 
 <img src="https://www.gnu.org/graphics/gplv3-with-text-136x68.png" width="160" align="right">
