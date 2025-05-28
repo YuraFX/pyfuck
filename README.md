@@ -1,7 +1,5 @@
 <p align="center"><img src="https://raw.githubusercontent.com/YuraFX/pyfuck/main/images/logo.png" width="360"></p>
-<h1 align="center">Интерпретатор языка Brainfuck</h1>
-
-![donate](images/donation_alerts.png) [Финансовая поддержка](https://www.donationalerts.com/r/yura_fx) 
+<h1 align="center">Интерпретатор языка Brainfuck</h1> 
 
 ## Вступление
 
